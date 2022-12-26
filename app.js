@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-let cc = require('./api/index')
 //跨域
 const cors = require('cors')
 app.use(cors())
